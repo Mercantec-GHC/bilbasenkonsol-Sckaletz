@@ -84,7 +84,7 @@ namespace BilbasenKonsol
                 new Car("Subaru", "Crosstrek", 2018, "Orange", 152),
                 new Car("Lexus", "RX 450h", 2020, "Black", 308),
                 new Car("Porsche", "718 Cayman", 2020, "Yellow", 300),
-                new Car("Mazda", "CX-9", 2018, "White", 250),
+                new Car("Mazda", "CX-9", 1990, "White", 250),
                 new Car("Jeep", "Cherokee", 2017, "Red", 271),
                 new Car("Hyundai", "Kona", 2021, "Gray", 175),
                 new Car("Kia", "Rio", 2016, "Blue", 130),
@@ -110,15 +110,63 @@ namespace BilbasenKonsol
                 new Car("Honda", "Ridgeline", 2020, "Gray", 280)
             };
 
-            string firstBrand = cars[0].Brand;
-
+            // Opgave 1
+            /*
             foreach (Car car in cars)
             {
-                if (car.Brand == firstBrand)
+                if (car.Brand == cars[0].Brand)
                 {
                     Console.WriteLine($"Brand: {car.Brand}, Model: {car.Model}, Year: {car.Year}, Color: {car.Color}, Horsepower: {car.HorsePower}");
                 }
             }
+            */
+
+            // Opgave 2
+            /*
+            foreach (Car car in cars)
+            {
+                if (car.HorsePower > 200)
+                {
+                    Console.WriteLine($"Brand: {car.Brand}, Model: {car.Model}, Year: {car.Year}, Color: {car.Color}, Horsepower: {car.HorsePower}");
+                }
+            }
+            */
+
+            // Opgave 3
+            /*
+            foreach (Car car in cars)
+            {
+                if (car.Color == "Red")
+                {
+                    Console.WriteLine($"Brand: {car.Brand}, Model: {car.Model}, Year: {car.Year}, Color: {car.Color}, Horsepower: {car.HorsePower}");
+                }
+            }
+            */
+
+            // Opgave 4
+            /*
+            int amountOfFirstCarBrand = 0;
+            foreach (Car car in cars)
+            {
+                if (car.Brand == cars[0].Brand)
+                {
+                    amountOfFirstCarBrand++;
+                    //Console.WriteLine($"Brand: {car.Brand}, Model: {car.Model}, Year: {car.Year}, Color: {car.Color}, Horsepower: {car.HorsePower}");
+                }
+            }
+            Console.WriteLine(amountOfFirstCarBrand);
+            */
+
+            // Opgave 5
+            /*
+            foreach (Car car in cars)
+            {
+                if (car.Year <= 1999 && car.Year >= 1980)
+                {
+                    Console.WriteLine($"Brand: {car.Brand}, Model: {car.Model}, Year: {car.Year}, Color: {car.Color}, Horsepower: {car.HorsePower}");
+                }
+            }
+            */
         }
     }
 }
