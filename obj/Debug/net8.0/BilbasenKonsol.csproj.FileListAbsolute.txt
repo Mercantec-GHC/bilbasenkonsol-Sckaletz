@@ -17,3 +17,22 @@ C:\Users\MAGS\Documents\GitHub\BilbasenKonsol\bin\Debug\net8.0\Class Domain Mode
 C:\Users\MAGS\Documents\GitHub\BilbasenKonsol\bin\Debug\net8.0\Class Domain Models.pdb
 C:\Users\MAGS\Documents\GitHub\BilbasenKonsol\obj\Debug\net8.0\BilbasenKonsol.csproj.AssemblyReference.cache
 C:\Users\MAGS\Documents\GitHub\BilbasenKonsol\obj\Debug\net8.0\BilbasenKonsol.csproj.CopyComplete
+C:\Users\sck\Documents\GitHub\bilbasenkonsol-Sckaletz\obj\Debug\net8.0\BilbasenKonsol.dll
+C:\Users\sck\Documents\GitHub\bilbasenkonsol-Sckaletz\obj\Debug\net8.0\refint\BilbasenKonsol.dll
+C:\Users\sck\Documents\GitHub\bilbasenkonsol-Sckaletz\obj\Debug\net8.0\BilbasenKonsol.pdb
+C:\Users\sck\Documents\GitHub\bilbasenkonsol-Sckaletz\bin\Debug\net8.0\BilbasenKonsol.exe
+C:\Users\sck\Documents\GitHub\bilbasenkonsol-Sckaletz\bin\Debug\net8.0\BilbasenKonsol.deps.json
+C:\Users\sck\Documents\GitHub\bilbasenkonsol-Sckaletz\bin\Debug\net8.0\BilbasenKonsol.runtimeconfig.json
+C:\Users\sck\Documents\GitHub\bilbasenkonsol-Sckaletz\bin\Debug\net8.0\BilbasenKonsol.dll
+C:\Users\sck\Documents\GitHub\bilbasenkonsol-Sckaletz\bin\Debug\net8.0\BilbasenKonsol.pdb
+C:\Users\sck\Documents\GitHub\bilbasenkonsol-Sckaletz\bin\Debug\net8.0\Class_Domain_Models.dll
+C:\Users\sck\Documents\GitHub\bilbasenkonsol-Sckaletz\bin\Debug\net8.0\Class_Domain_Models.pdb
+C:\Users\sck\Documents\GitHub\bilbasenkonsol-Sckaletz\obj\Debug\net8.0\BilbasenKonsol.csproj.AssemblyReference.cache
+C:\Users\sck\Documents\GitHub\bilbasenkonsol-Sckaletz\obj\Debug\net8.0\BilbasenKonsol.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sck\Documents\GitHub\bilbasenkonsol-Sckaletz\obj\Debug\net8.0\BilbasenKonsol.AssemblyInfoInputs.cache
+C:\Users\sck\Documents\GitHub\bilbasenkonsol-Sckaletz\obj\Debug\net8.0\BilbasenKonsol.AssemblyInfo.cs
+C:\Users\sck\Documents\GitHub\bilbasenkonsol-Sckaletz\obj\Debug\net8.0\BilbasenKonsol.csproj.CoreCompileInputs.cache
+C:\Users\sck\Documents\GitHub\bilbasenkonsol-Sckaletz\obj\Debug\net8.0\BilbasenKonsol.sourcelink.json
+C:\Users\sck\Documents\GitHub\bilbasenkonsol-Sckaletz\obj\Debug\net8.0\BilbasenKonsol.csproj.CopyComplete
+C:\Users\sck\Documents\GitHub\bilbasenkonsol-Sckaletz\obj\Debug\net8.0\BilbasenKonsol.genruntimeconfig.cache
+C:\Users\sck\Documents\GitHub\bilbasenkonsol-Sckaletz\obj\Debug\net8.0\ref\BilbasenKonsol.dll
