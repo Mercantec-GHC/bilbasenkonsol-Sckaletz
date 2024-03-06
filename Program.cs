@@ -126,9 +126,9 @@ namespace BilbasenKonsol
                         Console.WriteLine($"{electricCar.Brand} {electricCar.Model} {electricCar.Year} {electricCar.Color} {electricCar.HorsePower} {electricCar.BatteryCapacity}");
                     }*/
 
-                    if (electricCar.Year <= 1999 && electricCar.Year >= 1980)
+                    if (electricCar.GetYear() <= 1999 && electricCar.GetYear() >= 1980)
                     {
-                        Console.WriteLine($"{electricCar.Brand} {electricCar.Model} {electricCar.Year} {electricCar.Color} {electricCar.HorsePower} {electricCar.BatteryCapacity}");
+                        Console.WriteLine($"{electricCar.GetBrand()} {electricCar.GetModel()} {electricCar.GetYear()} {electricCar.GetColor()} {electricCar.GetHorsePower()} {electricCar.GetBatteryCapacity()}");
                     }
                 }
 
@@ -156,9 +156,9 @@ namespace BilbasenKonsol
                         Console.WriteLine($"{gasolineCar.Brand} {gasolineCar.Model} {gasolineCar.Year} {gasolineCar.Color} {gasolineCar.HorsePower} {gasolineCar.NumberOfCylinders}");
                     }*/
 
-                    if (gasolineCar.Year <= 1999 && gasolineCar.Year >= 1980)
+                    if (gasolineCar.GetYear() <= 1999 && gasolineCar.GetYear() >= 1980)
                     {
-                        Console.WriteLine($"{gasolineCar.Brand} {gasolineCar.Model} {gasolineCar.Year} {gasolineCar.Color} {gasolineCar.HorsePower} {gasolineCar.NumberOfCylinders}");
+                        Console.WriteLine($"{gasolineCar.GetBrand()} {gasolineCar.GetModel()} {gasolineCar.GetYear()} {gasolineCar.GetColor()} {gasolineCar.GetHorsePower()} {gasolineCar.GetNumberOfCylinders()}");
                     }
                 }
             }
