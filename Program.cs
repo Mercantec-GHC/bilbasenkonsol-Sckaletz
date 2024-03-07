@@ -92,7 +92,27 @@ namespace BilbasenKonsol
                 new GasolineCar("Ford", "Expedition", 2018, "White", 375, 6),
                 new GasolineCar("Toyota", "Avalon", 2021, "Black", 301, 6),
                 new GasolineCar("Chevrolet", "Blazer", 2019, "Blue", 305, 6),
-                new GasolineCar("Honda", "Ridgeline", 2020, "Gray", 280, 6)
+                new GasolineCar("Honda", "Ridgeline", 2020, "Gray", 280, 6),
+                new Motorcycle("Harley-Davidson", "Sportster Iron 883", 2024, "Black", 883),
+                new Motorcycle("Honda", "CBR1000RR", 2024, "Red", 1000),
+                new Motorcycle("Yamaha", "YZF-R6", 2024, "Blue", 600),
+                new Motorcycle("Kawasaki", "Ninja 650", 2024, "Green", 650),
+                new Motorcycle("Ducati", "Panigale V4", 2024, "Red", 1103),
+                new Motorcycle("BMW", "S1000RR", 2024, "White", 999),
+                new Motorcycle("Suzuki", "GSX-R750", 2024, "Yellow", 750),
+                new Motorcycle("Triumph", "Street Triple RS", 2024, "Silver", 765),
+                new Motorcycle("Indian", "Scout Bobber", 2024, "Black", 1133),
+                new Motorcycle("Aprilia", "RSV4 RR", 2024, "Silver", 999),
+                new Motorcycle("KTM", "1290 Super Duke R", 2024, "Orange", 1301),
+                new Motorcycle("MV Agusta", "F3 800", 2024, "White", 798),
+                new Motorcycle("Royal Enfield", "Interceptor 650", 2024, "Orange", 648),
+                new Motorcycle("Harley-Davidson", "Softail Standard", 2024, "Black", 1746),
+                new Motorcycle("Honda", "Rebel 500", 2024, "Matte Blue", 471),
+                new Motorcycle("Yamaha", "MT-09", 2024, "Gray", 889),
+                new Motorcycle("Kawasaki", "Z900", 2024, "Green", 948),
+                new Motorcycle("Ducati", "Monster 797", 2024, "Red", 803),
+                new Motorcycle("BMW", "R1250GS", 2024, "Blue", 1254),
+                new Motorcycle("Suzuki", "SV650", 2024, "Black", 645)
             };
 
 
@@ -126,7 +146,7 @@ namespace BilbasenKonsol
                         Console.WriteLine($"{electricCar.Brand} {electricCar.Model} {electricCar.Year} {electricCar.Color} {electricCar.HorsePower} {electricCar.BatteryCapacity}");
                     }*/
 
-                    if (electricCar.GetYear() <= 1999 && electricCar.GetYear() >= 1980)
+                    if (electricCar.GetYear() <= 2023 && electricCar.GetYear() >= 1980)
                     {
                         Console.WriteLine($"{electricCar.GetBrand()} {electricCar.GetModel()} {electricCar.GetYear()} {electricCar.GetColor()} {electricCar.GetHorsePower()} {electricCar.GetBatteryCapacity()}");
                     }
